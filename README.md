@@ -1,16 +1,12 @@
-# m_class
+# Draggable camera view with Full screen video view
+Demo application to play online video while taking live feeds from front camera and display in draggable container above the video.
+You can change the mode of the application from portrait mode to landscape mode. 
+you can drag the camera view only in portrait mode.
+It also works on android TV
 
-A new Flutter application.
+Camera view and Video view are like parent class just clone the project copy classes along with BaseView and call corresponding functions returning Widgets 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages used in this application
+[flick_video_player](https://pub.dev/packages/flick_video_player)
+[video_player](https://pub.dev/packages/video_player)
+[camera](https://pub.dev/packages/camera)
